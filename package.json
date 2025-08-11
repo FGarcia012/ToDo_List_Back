@@ -1,0 +1,34 @@
+{
+  "name": "todo_list_back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FGarcia012/ToDo_List_Back.git"
+  },
+  "keywords": [],
+  "author": "Fredy Alexander García Sicajau",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/FGarcia012/ToDo_List_Back/issues"
+  },
+  "homepage": "https://github.com/FGarcia012/ToDo_List_Back#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.17.1",
+    "morgan": "^1.10.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
