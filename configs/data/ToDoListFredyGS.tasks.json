@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "689acda039d9aa12fa83bbde"
+  },
+  "title": "Completar documentación del proyecto",
+  "status": "Complete",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-08-12T05:14:08.419Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-12T05:18:17.875Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "689aced339d9aa12fa83bbf1"
+  },
+  "title": "Implementar sistema de autenticación JWT",
+  "status": "Incomplete",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-08-12T05:19:15.458Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-12T05:19:15.458Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "689aceda39d9aa12fa83bbf3"
+  },
+  "title": "Comprar ingredientes para la cena de cumpleaños",
+  "status": "Complete",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-08-12T05:19:22.305Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-12T05:19:22.305Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "689acedf39d9aa12fa83bbf5"
+  },
+  "title": "Estudiar para el examen de matemáticas avanzadas",
+  "status": "Incomplete",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-08-12T05:19:27.512Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-12T05:19:27.512Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "689acee639d9aa12fa83bbf7"
+  },
+  "title": "Preparar presentación para la reunión con clientes",
+  "status": "Complete",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-08-12T05:19:34.308Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-12T05:19:34.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "689aceec39d9aa12fa83bbf9"
+  },
+  "title": "Agendar cita con el dentista para revisión anual",
+  "status": "Incomplete",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-08-12T05:19:40.144Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-12T05:19:40.144Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "689acef139d9aa12fa83bbfb"
+  },
+  "title": "Limpiar y organizar el garaje completamente",
+  "status": "Incomplete",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-08-12T05:19:45.697Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-12T05:19:45.697Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "689acef739d9aa12fa83bbfd"
+  },
+  "title": "Revisar y actualizar el presupuesto mensual",
+  "status": "Complete",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-08-12T05:19:51.414Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-12T05:19:51.414Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "689acefd39d9aa12fa83bbff"
+  },
+  "title": "Terminar de leer el libro 'Cien años de soledad'",
+  "status": "Incomplete",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-08-12T05:19:57.109Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-12T05:19:57.109Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "689acf0239d9aa12fa83bc01"
+  },
+  "title": "Cambiar el aceite y filtros del automóvil",
+  "status": "Complete",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-08-12T05:20:02.421Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-12T05:20:02.421Z"
+  }
+}]

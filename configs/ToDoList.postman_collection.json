@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "ee704e2f-5c62-4aaa-84ce-632d10b9c370",
+		"name": "ToDoList",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37658894"
+	},
+	"item": [
+		{
+			"name": "Task",
+			"item": [
+				{
+					"name": "addTask",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Cambiar el aceite y filtros del automóvil\",\r\n    \"status\": \"Complete\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3018/ToDoList/v1/tasks/addTask",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3018",
+							"path": [
+								"ToDoList",
+								"v1",
+								"tasks",
+								"addTask"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Tasks",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3018/ToDoList/v1/tasks/getTasks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3018",
+							"path": [
+								"ToDoList",
+								"v1",
+								"tasks",
+								"getTasks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Task",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3018/ToDoList/v1/tasks/getTask/689acda039d9aa12fa83bbde",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3018",
+							"path": [
+								"ToDoList",
+								"v1",
+								"tasks",
+								"getTask",
+								"689acda039d9aa12fa83bbde"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateTask",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Completar documentación del proyecto\",\r\n    \"status\": \"Complete\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3018/ToDoList/v1/tasks/updateTask/689acda039d9aa12fa83bbde",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3018",
+							"path": [
+								"ToDoList",
+								"v1",
+								"tasks",
+								"updateTask",
+								"689acda039d9aa12fa83bbde"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteTask",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3018/ToDoList/v1/tasks/deleteTask/689acda039d9aa12fa83bbde",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3018",
+							"path": [
+								"ToDoList",
+								"v1",
+								"tasks",
+								"deleteTask",
+								"689acda039d9aa12fa83bbde"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
