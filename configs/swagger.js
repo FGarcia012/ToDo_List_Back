@@ -8,15 +8,19 @@ const option = {
             title: 'ToDo List API',
             version: '1.0.0',
             description: 'API documentation for the ToDo List application',
+            contact: {
+                name: 'Fredy Alexander García Sicajau',
+                email: 'alexander.garcia.sicajau@gmail.com'
+            }
         },
         servers: [
             {
-                url: 'http://127.0.0.1:3018/ToDo_List/v1',
+                url: 'http://127.0.0.1:3018/ToDoList/v1',
             },
         ],
     },
     apis: [
-
+        './src/task/task.routes.js'
     ]
 };
 
