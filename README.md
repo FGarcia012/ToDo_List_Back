@@ -47,10 +47,11 @@ src/
 ```
 
 ## Endpoints principales
-- `GET /api/task` - Listar tareas
-- `POST /api/task` - Crear tarea
-- `PUT /api/task/:id` - Actualizar tarea
-- `DELETE /api/task/:id` - Eliminar tarea
+- `GET /tasks/getTasks` - Listar tareas
+- `GET /tasks/getTask/:tid` - Obtener tarea
+- `POST tasks/addTask` - Crear tarea
+- `PUT /tasks/updateTask/:tid` - Actualizar tarea
+- `DELETE /tasks/deleteTask/:tid` - Eliminar tarea
 
 ## Notas relevantes
 - El archivo `configs/ToDoList.postman_collection.json` contiene ejemplos para pruebas en Postman.

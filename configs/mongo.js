@@ -25,7 +25,7 @@ export const dbConnection = async () => {
         })
 
         await mongoose.connect(process.env.URI_MONGO,{
-            serverSelectionTimeoutMS: 5000,
+            serverSelectionTimeoutMS: 10000,
             maxPoolSize: 50
         })
     }catch(err){
